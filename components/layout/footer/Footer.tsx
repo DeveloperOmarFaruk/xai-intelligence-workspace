@@ -1,22 +1,8 @@
 "use client";
 
+import { footerLinks } from "@/data/data";
 import FooterColumn from "./FooterColumn";
 import { motion as Motion, Variants } from "framer-motion";
-
-const footerLinks = [
-  {
-    title: "Product",
-    items: ["Workspace", "API", "Connectors"],
-  },
-  {
-    title: "Company",
-    items: ["About", "Ethics", "Careers"],
-  },
-  {
-    title: "Legal",
-    items: ["Privacy", "Security", "Terms"],
-  },
-];
 
 export default function Footer() {
   const fadeInUpVariants: Variants = {

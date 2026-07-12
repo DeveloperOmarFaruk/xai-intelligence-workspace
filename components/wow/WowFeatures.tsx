@@ -1,28 +1,8 @@
 "use client";
 
-import {
-  ArrowUpRight,
-  LineChart,
-  Network,
-  Share2,
-  Sparkles,
-} from "lucide-react";
+import { ArrowUpRight, Network } from "lucide-react";
 import { motion as Motion, Variants } from "framer-motion";
-
-const features = [
-  {
-    icon: Sparkles,
-    label: "Self-healing information fabrics",
-  },
-  {
-    icon: Share2,
-    label: "Recursive semantic optimization",
-  },
-  {
-    icon: LineChart,
-    label: "Predictive graph re-weighting",
-  },
-];
+import { wowFeatures } from "@/data/data";
 
 export default function WowFeatures() {
   const fadeInUpVariants: Variants = {
@@ -75,7 +55,7 @@ export default function WowFeatures() {
       </Motion.p>
 
       <ul className="mt-6 space-y-3 text-sm">
-        {features.map((feature) => (
+        {wowFeatures.map((feature) => (
           <Motion.div
             initial="hidden"
             whileInView="visible"

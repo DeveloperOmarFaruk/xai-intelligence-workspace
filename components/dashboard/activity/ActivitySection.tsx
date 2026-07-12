@@ -1,25 +1,7 @@
 "use client";
 
+import { activityData } from "@/data/data";
 import ActivityItem from "./ActivityItem";
-
-const activityData = [
-  {
-    title: "Agent Nova indexed 24K records",
-    time: "2m",
-  },
-  {
-    title: "Pipeline #04 promoted to production",
-    time: "18m",
-  },
-  {
-    title: "Model retrained on Q3 telemetry",
-    time: "1h",
-  },
-  {
-    title: "Vector store rebalanced",
-    time: "3h",
-  },
-];
 
 export default function ActivitySection() {
   return (

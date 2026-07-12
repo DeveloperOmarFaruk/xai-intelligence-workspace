@@ -2,21 +2,7 @@
 
 import { CircleDot } from "lucide-react";
 import AutomationProgress from "./AutomationProgress";
-
-const automationData = [
-  {
-    name: "Lead Enrichment",
-    percentage: 82,
-  },
-  {
-    name: "Anomaly Watch",
-    percentage: 64,
-  },
-  {
-    name: "Forecast Refresh",
-    percentage: 91,
-  },
-];
+import { automationData } from "@/data/data";
 
 export default function AutomationStatus() {
   return (

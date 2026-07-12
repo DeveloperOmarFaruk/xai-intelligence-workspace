@@ -2,17 +2,7 @@
 
 import { Sparkles } from "lucide-react";
 import SynthCard from "./SynthCard";
-
-const synthesisData = [
-  {
-    title: "Anomaly Detected in Cluster 7",
-    body: "Predicted resource leak in reasoning sub-module. Optimization suggested.",
-  },
-  {
-    title: "New Pattern Emerged",
-    body: "Correlation found between supply-chain latency and region-4 output.",
-  },
-];
+import { synthesisData } from "@/data/data";
 
 export default function AISynthesis() {
   return (

@@ -1,33 +1,7 @@
 "use client";
 
+import { kpiData } from "@/data/data";
 import KPI from "./KPI";
-
-const kpiData = [
-  {
-    label: "Inference Speed",
-    value: "12.4ms",
-    delta: "-14%",
-    tone: "up" as const,
-  },
-  {
-    label: "Model Accuracy",
-    value: "99.8%",
-    delta: "+0.4%",
-    tone: "up" as const,
-  },
-  {
-    label: "Active Agents",
-    value: "42",
-    delta: "+3",
-    tone: "up" as const,
-  },
-  {
-    label: "Data Latency",
-    value: "0.02ms",
-    delta: "Stable",
-    tone: "flat" as const,
-  },
-];
 
 export default function KPISection() {
   return (
