@@ -47,6 +47,7 @@ The site is composed of five main sections:
 ### Component Structure
 ```
 
+`
 app/
 ├── page.tsx # Main landing page composition
 ├── layout.tsx # Root layout + metadata
@@ -60,6 +61,7 @@ components/
 ├── wow/ # ClusterViz (Three.js) + feature list
 ├── layout/ # Navbar + Footer
 └── ui/ # shadcn/ui primitives (Button, Dialog, Sonner)
+`
 
 data/data.ts # Pipeline steps, KPIs, activities, footer links
 types/ # TypeScript interfaces for all data models
