@@ -47,26 +47,29 @@ The site is composed of five main sections:
 ### Component Structure
 ```
 
-`
+```text
 app/
-├── page.tsx # Main landing page composition
-├── layout.tsx # Root layout + metadata
-├── providers.tsx # React Query provider
-└── globals.css # Design tokens + animations
-
+├── page.tsx          # Main landing page composition
+├── layout.tsx        # Root layout + metadata
+├── providers.tsx     # React Query provider
+└── globals.css       # Design tokens + animations
 components/
-├── hero/ # Hero + NeuralOrb (Three.js)
-├── pipeline/ # GSAP scroll-pinned pipeline steps
-├── dashboard/ # Mission Control UI mock
-├── wow/ # ClusterViz (Three.js) + feature list
-├── layout/ # Navbar + Footer
-└── ui/ # shadcn/ui primitives (Button, Dialog, Sonner)
-`
+├── hero/             # Hero + NeuralOrb (Three.js)
+├── pipeline/         # GSAP scroll-pinned pipeline steps
+├── dashboard/        # Mission Control UI mock
+├── wow/              # ClusterViz (Three.js) + feature list
+├── layout/           # Navbar + Footer
+└── ui/               # shadcn/ui primitives (Button, Dialog, Sonner)
+data/data.ts          # Pipeline steps, KPIs, activities, footer links
+types/                # TypeScript interfaces for all data models
+```
+
+```
 
 data/data.ts # Pipeline steps, KPIs, activities, footer links
 types/ # TypeScript interfaces for all data models
 
-````
+```
 
 ### Performance Decisions
 
@@ -78,16 +81,16 @@ types/ # TypeScript interfaces for all data models
 
 ## 3. Technology Stack
 
-| Category | Technologies |
-|----------|-------------|
-| **Core** | Next.js 16.2.4, React 19.2.4, TypeScript 5 |
-| **Styling** | Tailwind CSS 4, shadcn/ui, tw-animate-css |
-| **Animation** | GSAP 3 + ScrollTrigger, Framer Motion 12 |
-| **3D / WebGL** | Three.js, React Three Fiber, @react-three/drei |
-| **Icons** | Lucide React |
+| Category         | Technologies                                                  |
+| ---------------- | ------------------------------------------------------------- |
+| **Core**         | Next.js 16.2.4, React 19.2.4, TypeScript 5                    |
+| **Styling**      | Tailwind CSS 4, shadcn/ui, tw-animate-css                     |
+| **Animation**    | GSAP 3 + ScrollTrigger, Framer Motion 12                      |
+| **3D / WebGL**   | Three.js, React Three Fiber, @react-three/drei                |
+| **Icons**        | Lucide React                                                  |
 | **Data / State** | TanStack React Query 5 (Redux Toolkit scaffolded, not active) |
-| **UI Utilities** | clsx, tailwind-merge, class-variance-authority |
-| **Deployment** | Vercel |
+| **UI Utilities** | clsx, tailwind-merge, class-variance-authority                |
+| **Deployment**   | Vercel                                                        |
 
 ---
 
@@ -107,7 +110,7 @@ cd xai-intelligence-workspace
 
 # Install dependencies
 npm install
-````
+```
 
 ### Development
 
