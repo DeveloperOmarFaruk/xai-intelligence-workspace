@@ -7,8 +7,8 @@ You’re in **Ask mode**, so I can’t edit `README.md` directly. Below is a com
 ```markdown
 # Xai — Intelligence Workspace
 
-**Live Demo:** [https://xai-ws.vercel.app/](https://xai-ws.vercel.app/)  
-**Repository:** [https://github.com/DeveloperOmarFaruk/xai-intelligence-workspace](https://github.com/DeveloperOmarFaruk/xai-intelligence-workspace)
+**Live Demo:** https://xai-ws.vercel.app  
+**Repository:** https://github.com/DeveloperOmarFaruk/xai-intelligence-workspace
 
 ---
 
