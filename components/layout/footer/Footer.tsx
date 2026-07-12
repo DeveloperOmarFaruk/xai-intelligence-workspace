@@ -31,7 +31,7 @@ export default function Footer() {
   const viewportConfig = { once: false, amount: 0.3 };
 
   return (
-    <footer className="mt-10 border-t border-border/60">
+    <footer className="mt-0 md:mt-10 border-t border-border/60">
       <div className="mx-auto grid max-w-6xl gap-10 px-6 py-14 md:grid-cols-4">
         {/* Brand */}
         <div className="md:col-span-1">

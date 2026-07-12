@@ -71,7 +71,7 @@ export default function Pipeline() {
       {/* Intro Header Panel */}
       <div
         ref={textContainerRef}
-        className="relative w-full pt-32 pb-16 flex flex-col justify-center items-center px-6 text-center z-10 bg-background"
+        className="relative w-full pt-10 md:pt-32 pb-0 md:pb-16 flex flex-col justify-center items-center px-6 text-center z-10 bg-background"
       >
         {/* Eyebrow - initially hidden via GSAP */}
         <div className="eyebrow opacity-0">The Neural Pipeline</div>

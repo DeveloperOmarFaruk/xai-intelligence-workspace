@@ -14,7 +14,7 @@ export default function ActivityItem({ title, time }: ActivityItemProps) {
         <Activity className="h-3.5 w-3.5 text-primary" />
       </span>
 
-      <div className="min-w-0 flex-1 truncate text-sm">{title}</div>
+      <div className="min-w-0 flex-1 truncate text-xs md:text-sm ">{title}</div>
 
       <span className="text-xs text-muted-foreground shrink-0">{time}</span>
     </li>

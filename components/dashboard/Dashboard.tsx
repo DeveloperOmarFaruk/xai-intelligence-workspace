@@ -132,7 +132,7 @@ export default function Dashboard() {
   return (
     <section
       id="dashboard"
-      className="relative mx-auto max-w-6xl px-4 py-20 sm:px-6 sm:py-28"
+      className="relative mx-auto max-w-6xl px-4  sm:px-6 py-4 md:py-28"
     >
       <DashboardHeader />
 

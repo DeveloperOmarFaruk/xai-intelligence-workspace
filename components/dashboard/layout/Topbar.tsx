@@ -26,14 +26,14 @@ export default function Topbar() {
           </button>
 
           {/* Create Button */}
-          <button className="inline-flex h-11 items-center gap-2 rounded-xl bg-gradient-to-r from-primary to-primary-glow px-4 text-sm font-medium text-primary-foreground shadow-lg transition hover:scale-[1.02]">
+          <button className="inline-flex h-11 items-center gap-2 rounded-xl bg-gradient-to-r from-primary to-primary-glow px-4 text-sm font-medium text-primary-foreground shadow-lg transition  hover:scale-[1.02]">
             <Sparkles className="h-4 w-4" />
 
             <span className="hidden sm:block">New Project</span>
           </button>
 
           {/* Profile */}
-          <button className="flex items-center gap-3 rounded-xl border border-border/70 bg-surface/60 px-2 py-1.5 transition hover:bg-surface">
+          <button className="md:flex items-center gap-3 rounded-xl border border-border/70 bg-surface/60 px-2 py-1.5 transition hidden hover:bg-surface">
             <div className="h-9 w-9 rounded-full bg-gradient-to-br from-primary to-cyan" />
 
             <div className="hidden text-left sm:block">
