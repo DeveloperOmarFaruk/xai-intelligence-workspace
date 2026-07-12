@@ -1,0 +1,4 @@
+{
+    "terminal.integrated.defaultProfile.windows": "cmd",
+    "terminal.integrated.windowsUseConptyDll": false
+}
