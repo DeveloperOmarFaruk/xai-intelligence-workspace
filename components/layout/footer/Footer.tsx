@@ -24,6 +24,9 @@ export default function Footer() {
         {/* Brand */}
         <div className="md:col-span-1">
           <div className="font-display text-2xl italic">Xai</div>
+          <p className="text-xs text-muted-foreground">
+            Intelligence Workspace
+          </p>
 
           <p className="mt-3 max-w-xs text-sm text-muted-foreground">
             Defining the substrate of enterprise intelligence. Built for scale,

@@ -26,12 +26,12 @@ export default function Dashboard() {
           {/* 2. Added h-full and overflow-y-auto to create an independent scrollable container */}
           <div className="flex flex-col h-full overflow-hidden">
             {/* Topbar stays at the top of this flex container */}
-            <div className="">
+            <div className="p-6 pt-4 pb-4 border-b border-border/70">
               <Topbar />
             </div>
 
             {/* Content area that actually scrolls */}
-            <div className="flex-1 overflow-y-auto custom-scroll space-y-6 p-6 lg:p-8">
+            <div className="flex-1 overflow-y-auto custom-scroll space-y-6 p-6 pr-3 lg:p-8">
               <KPISection />
 
               <div className="grid lg:grid-cols-[2fr_1fr] gap-4">
