@@ -17,7 +17,7 @@ export default function WowSection() {
   const viewportConfig = { once: false, amount: 0.3 };
 
   return (
-    <section id="wow" className="relative mx-auto max-w-6xl px-6 py-32">
+    <section id="wow" className="relative mx-auto max-w-6xl px-6 py-24">
       <div className="grid items-center gap-10 lg:grid-cols-[1fr_1.4fr]">
         {/* Left Content */}
         <WowFeatures />
