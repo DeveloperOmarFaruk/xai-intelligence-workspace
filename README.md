@@ -9,6 +9,8 @@ You’re in **Ask mode**, so I can’t edit `README.md` directly. Below is a com
 
 **Live Demo:** https://xai-ws.vercel.app  
 **Repository:** https://github.com/DeveloperOmarFaruk/xai-intelligence-workspace
+**Figma URL:** https://stitch.withgoogle.com/projects/15645805512565986472
+**Documentation URL:** https://drive.google.com/file/d/1DEGtdqHJckZIPggxiGqTivewhK_pUKeW/view?usp=sharing
 
 ---
 
